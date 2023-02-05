@@ -22,6 +22,8 @@ django-celery-beat = "*"
 
 [dev-packages]
 autopep8 = "*"
+pytest = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"
