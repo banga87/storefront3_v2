@@ -1,3 +1,8 @@
+
+from django.contrib.auth.models import User
+from rest_framework.test import APIClient
+import pytest
+
 """
 By using this fixture in a PyTest test case, you can easily make API requests
 and test the behavior of your Django application's APIs. The advantage of using 
@@ -6,15 +11,14 @@ is executed only once per test session, and the returned value is passed as an
 argument to the test function that uses the fixture. This makes the code more readable,
 and helps you avoid repeating setup logic in multiple tests.
 """
-
-from django.contrib.auth.models import User
-from rest_framework.test import APIClient
-import pytest
-
 @pytest.fixture
 def api_client():
     return APIClient()
 
+
+"""
+Inner function used 
+"""
 @pytest.fixture
 def authenticate(api_client):
     def do_authenticate(is_staff=False):
