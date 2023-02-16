@@ -21,6 +21,7 @@ flower = "*"
 django-celery-beat = "*"
 django-redis = "*"
 whitenoise = "*"
+heroku = "*"
 
 [dev-packages]
 autopep8 = "*"
