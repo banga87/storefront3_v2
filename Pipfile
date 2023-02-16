@@ -23,6 +23,7 @@ django-redis = "*"
 whitenoise = "*"
 heroku = "*"
 dj-database-url = "*"
+django-silk = "*"
 
 [dev-packages]
 autopep8 = "*"
