@@ -22,6 +22,7 @@ django-celery-beat = "*"
 django-redis = "*"
 whitenoise = "*"
 heroku = "*"
+dj-database-url = "*"
 
 [dev-packages]
 autopep8 = "*"
