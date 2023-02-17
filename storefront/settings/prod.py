@@ -7,7 +7,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://mosh-django-ecommerce.herokuapp.com/']
+ALLOWED_HOSTS = ['mosh-django-ecommerce.herokuapp.com']
 
 DATABASES = {
     'default': dj_database_url.config()
