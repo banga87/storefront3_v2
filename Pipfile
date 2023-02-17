@@ -25,6 +25,7 @@ heroku = "*"
 dj-database-url = "*"
 django-silk = "*"
 psycopg2 = "*"
+gunicorn = "*"
 
 [dev-packages]
 autopep8 = "*"
