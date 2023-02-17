@@ -24,6 +24,7 @@ whitenoise = "*"
 heroku = "*"
 dj-database-url = "*"
 django-silk = "*"
+psycopg2 = "*"
 
 [dev-packages]
 autopep8 = "*"
