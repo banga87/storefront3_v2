@@ -1,5 +1,5 @@
 # Ecommerce Backend with Django
-<a href=https://mosh-django-ecommerce.herokuapp.com/store>Live API Interface</a>
+
 <br>
 I've left the Products and Collections end points open.
 <br>
